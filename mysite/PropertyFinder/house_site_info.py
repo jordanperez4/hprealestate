@@ -26,6 +26,7 @@ def get_zillow_info(driver, search_text):
     zillow_info = {}
     zillow_info["Zillow House Estimate"] = price_items[0]
     zillow_info["Zillow Rent Estimate"] = price_items[1]
+    print("test")
     return zillow_info
 
 
