@@ -27,5 +27,25 @@ def get_zillow_info(driver, search_text):
     zillow_info["Zillow House Estimate"] = price_items[0]
     zillow_info["Zillow Rent Estimate"] = price_items[1]
     return zillow_info
+def get_realtor_info(driver, search_text):
+    driver.get("https://www.realtor.com/")
+    realtor_search_input = driver.find_element_by_id("searchBox")
+    realtor_search_input.send_keys(search_text)
+    realtor_search_input.submit()
+    realtor_info = {}
+    delay = 6
+    try:
+        myElem = WebDriverWait(driver, delay).until(EC.presence_of_element_located((By.CLASS_NAME, 'ldp-header-price')))
+        print("Page is ready!")
+        est_text = driver.find_elements_by_class_name("ldp-header-price")[0].text
+        price_items = re.findall(r'\$(?:\d+\.)?\d+.\d+', est_text)
+    except TimeoutException:
+        print("Loading took too much time!")
+    est_text = driver.find_elements_by_class_name("ldp-header-price")[0].text
+    price_items = re.findall(r'\$(?:\d+\.)?\d+.\d+', est_text)
+    realtor_info = {}
+    realtor_info["Realtor House Estimate"] =  price_items[0]
+    return realtor_info
+
 
 

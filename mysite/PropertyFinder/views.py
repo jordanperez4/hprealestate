@@ -20,10 +20,12 @@ def index(request):
     search_text = "9091 Bobbie Cir, Huntington Beach, CA"
     driver = webdriver.Firefox()
     zillow_info = house_site_info.get_zillow_info(driver, search_text)
+    realtor_info = house_site_info.get_realtor_info(driver, search_text)
     driver.close()
     return render(request, 'PropertyFinder/index.html',
          {
-         'zillow_info': zillow_info
+         'zillow_info': zillow_info,
+         'realtor_info': realtor_info
          }
      )
 
