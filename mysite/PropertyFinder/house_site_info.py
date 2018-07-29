@@ -6,7 +6,7 @@ from selenium.webdriver.common.keys import Keys
 import re
 
 
-delay = 10
+delay = 20
 zillow_info = {}
 trulia_info = {}
 realtor_info = {}

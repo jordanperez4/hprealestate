@@ -916,3 +916,283 @@ console.error: "Could not write session state file " (new Error("_initWorker cal
 1532854345182	Marionette	INFO	Listening on port 64223
 1532854345373	Marionette	WARN	TLS certificate errors will be ignored for this session
 Unable to get IOVARendererSubID
+1532854766576	geckodriver	INFO	geckodriver 0.21.0
+1532854766587	geckodriver	INFO	Listening on 127.0.0.1:65428
+1532854766681	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/4z/9pmtrt2x44sg3qhryp3p2zvc0000gn/T/rust_mozprofile.jV93GASlEDKG"
+2018-07-29 01:59:32.628 plugin-container[37710:4490697] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x952b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-29 01:59:33.574 plugin-container[37711:4490723] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9347, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1532854774355	Marionette	INFO	Listening on port 65435
+1532854774451	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-29 01:59:34.749 plugin-container[37712:4490807] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9343, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+Unable to get IOVARendererSubID
+JavaScript error: https://www.zillowstatic.com/static-reg-login/LIVE/reg-login/app-5ad21c4180.js, line 1: ReferenceError: staticRegLoginJsonp is not defined
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2D00B0,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2D00B0,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1532856284712	geckodriver	INFO	geckodriver 0.21.0
+1532856284760	geckodriver	INFO	Listening on 127.0.0.1:52332
+1532856286996	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/4z/9pmtrt2x44sg3qhryp3p2zvc0000gn/T/rust_mozprofile.LxBad8q86kdY"
+1532856603584	geckodriver	INFO	geckodriver 0.21.0
+1532856603644	geckodriver	INFO	Listening on 127.0.0.1:53159
+1532856605575	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/4z/9pmtrt2x44sg3qhryp3p2zvc0000gn/T/rust_mozprofile.dThnLIRCuQGv"
+2018-07-29 02:30:23.769 plugin-container[58021:4551923] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x943f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-29 02:30:27.331 plugin-container[58057:4552044] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9343, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 335)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:335:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:328:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:352:11\nwrite@resource:///modules/sessionstore/SessionFile.jsm:392:19\nwrite@resource:///modules/sessionstore/SessionFile.jsm:64:12\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:357:12\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:295:12\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:341:5\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:192:9\n"
+2018-07-29 02:30:41.794 plugin-container[58173:4552339] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9547, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1532856643403	Marionette	INFO	Listening on port 53170
+1532856643641	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to get IOVARendererSubID
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: https://static.trulia-cdn.com/javascript/4ab89b1/include/js/_built/combo/site_js_new.479a7f5c20997d0302b2.js, line 1: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://static.trulia-cdn.com/javascript/4ab89b1/include/js/_built/navbar/main.179df43dfb617a2ba5b8.js, line 1: TypeError: window.FB is undefined
+JavaScript error: https://static.trulia-cdn.com/javascript/4ab89b1/include/js/_built/application/homepage/main.42c670a8854abd1acf55.js, line 1: ReferenceError: gapi is not defined
+JavaScript error: https://static.trulia-cdn.com/javascript/4ab89b1/include/js/_built/application/homepage/main.42c670a8854abd1acf55.js, line 1: TypeError: window.FB is undefined
+JavaScript error: https://static.trulia-cdn.com/javascript/4ab89b1/include/js/_built/navbar/main.179df43dfb617a2ba5b8.js, line 1: ReferenceError: gapi is not defined
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2D00B0,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2D00B0,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1532856675969	geckodriver	INFO	geckodriver 0.21.0
+1532856675997	geckodriver	INFO	Listening on 127.0.0.1:53548
+1532856678077	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/4z/9pmtrt2x44sg3qhryp3p2zvc0000gn/T/rust_mozprofile.1GakI3t2KosM"
+2018-07-29 02:31:24.231 plugin-container[58525:4553535] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x923f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-29 02:31:25.474 plugin-container[58547:4553602] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9637, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-29 02:31:26.417 plugin-container[58609:4553748] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9147, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1532856686672	Marionette	INFO	Listening on port 53559
+1532856686706	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to get IOVARendererSubID
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1532856753460	geckodriver	INFO	geckodriver 0.21.0
+1532856753490	geckodriver	INFO	Listening on 127.0.0.1:53848
+1532856753633	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/4z/9pmtrt2x44sg3qhryp3p2zvc0000gn/T/rust_mozprofile.k5XvR3MC93VS"
+2018-07-29 02:32:44.017 plugin-container[59029:4555571] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x903f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-29 02:32:45.499 plugin-container[59030:4555604] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9447, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1532856766487	Marionette	INFO	Listening on port 53853
+1532856766543	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-29 02:32:47.110 plugin-container[59034:4555687] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9143, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1532856907234	geckodriver	INFO	geckodriver 0.21.0
+1532856907263	geckodriver	INFO	Listening on 127.0.0.1:54278
+1532856907343	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/4z/9pmtrt2x44sg3qhryp3p2zvc0000gn/T/rust_mozprofile.pQzJsp2UZgWj"
+2018-07-29 02:35:13.987 plugin-container[60725:4560192] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8e3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-29 02:35:15.691 plugin-container[60726:4560236] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9347, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1532856916249	Marionette	INFO	Listening on port 54283
+1532856916417	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-29 02:35:16.740 plugin-container[60727:4560369] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x933f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+Unable to get IOVARendererSubID
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-29/html/container.html, line 22: SecurityError: Permission denied to access property "document" on cross-origin object
+1532857005604	geckodriver	INFO	geckodriver 0.21.0
+1532857005642	geckodriver	INFO	Listening on 127.0.0.1:54734
+1532857007698	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/4z/9pmtrt2x44sg3qhryp3p2zvc0000gn/T/rust_mozprofile.yFVpRRCe5Eie"
+2018-07-29 02:36:55.110 plugin-container[61769:4562989] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x954b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-29 02:36:56.130 plugin-container[61770:4563018] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9543, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1532857017259	Marionette	INFO	Listening on port 54745
+1532857017364	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-29 02:36:57.556 plugin-container[61771:4563101] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9347, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1532859310791	geckodriver	INFO	geckodriver 0.21.0
+1532859310819	geckodriver	INFO	Listening on 127.0.0.1:60279
+1532859310917	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/4z/9pmtrt2x44sg3qhryp3p2zvc0000gn/T/rust_mozprofile.CYlEd38FFUXb"
+1532859339652	geckodriver	INFO	geckodriver 0.21.0
+1532859339691	geckodriver	INFO	Listening on 127.0.0.1:60389
+1532859341736	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/4z/9pmtrt2x44sg3qhryp3p2zvc0000gn/T/rust_mozprofile.jCvCioxspQhj"
+2018-07-29 03:15:57.769 plugin-container[87494:4708161] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x923f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-29 03:16:06.635 plugin-container[87610:4708417] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x993b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: resource:///modules/SavantShieldStudy.jsm, line 171: TypeError: this.addonListener is undefined
+2018-07-29 03:16:28.940 plugin-container[87612:4708805] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x963f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1532859393866	geckodriver	INFO	geckodriver 0.21.0
+1532859393879	geckodriver	INFO	Listening on 127.0.0.1:60750
+1532859393953	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/4z/9pmtrt2x44sg3qhryp3p2zvc0000gn/T/rust_mozprofile.DmtZSNQDyQwA"
+2018-07-29 03:16:39.694 plugin-container[87847:4709539] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x953f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-29 03:16:40.901 plugin-container[87848:4709569] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9243, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1532859402026	Marionette	INFO	Listening on port 60755
+2018-07-29 03:16:42.032 plugin-container[87849:4709653] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x923b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1532859402513	Marionette	WARN	TLS certificate errors will be ignored for this session
+1532859528589	geckodriver	INFO	geckodriver 0.21.0
+1532859528616	geckodriver	INFO	Listening on 127.0.0.1:61234
+1532859528709	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/4z/9pmtrt2x44sg3qhryp3p2zvc0000gn/T/rust_mozprofile.OVLYOv09OWAs"
+2018-07-29 03:18:55.108 plugin-container[89126:4712977] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9737, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-29 03:18:56.000 plugin-container[89127:4713007] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x923b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1532859536729	Marionette	INFO	Listening on port 61239
+1532859536856	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-29 03:18:57.375 plugin-container[89209:4713210] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9143, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.zillowstatic.com/static-reg-login/LIVE/reg-login/app-5ad21c4180.js, line 1: ReferenceError: staticRegLoginJsonp is not defined
+JavaScript error: https://cdn.krxd.net/controltag?confid=J7KSr-4q, line 72: TypeError: Krux is not a function
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x490008,name=PHttpChannel::Msg_DocumentChannelCleanup) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x490008,name=PHttpChannel::Msg_DocumentChannelCleanup) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2D00B0,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2D00B0,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2D00B0,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1532860267158	geckodriver	INFO	geckodriver 0.21.0
+1532860267189	geckodriver	INFO	Listening on 127.0.0.1:63045
+1532860269325	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/4z/9pmtrt2x44sg3qhryp3p2zvc0000gn/T/rust_mozprofile.di98Z3yM4Igk"
+2018-07-29 03:31:17.540 plugin-container[97232:4759947] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9423, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-29 03:31:18.443 plugin-container[97233:4759994] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9547, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1532860279139	Marionette	INFO	Listening on port 63058
+1532860279240	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-29 03:31:21.014 plugin-container[97340:4760241] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9247, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.zillowstatic.com/l/?wants=z-home-tabs&deploy=admin-account-tools.c1a3188,adtech-landing.null,adv.2ef0d63,advice.25e5aad,agentteams.db3e983,app-upsell.04630c5,app-views.e7c3391,async-content.36c5773,bdp.071cc7e,best-time.c479a30,bpro.3cf9b7b,building-admin.34d58c6,chinese-landing-page.8ee294a,claim.a2ad0b8,community-pillar.cedeb1e,complaints.e92a505,contact-form.7958c5f,contacts.55f0ac7,email-a-friend.847f564,ecui.43a4038,formatters.34b921e,gtm.c9391e2,hdp.a6a1abf,hdp-legacy-shim.257c863,homepage.3727afe,homevalues.4288ddb,inspections.8ed1066,instant-offer.d56b765,keystone.a98b99a,lazy-image-loader.ec0328d,managed-lifecycle.e29d665,map.d81c3c9,mobile-landingpage.2bfadf9,modals.4cdd552,npm.d369a91,santas-house.9b25f76,nc-map.8b727d1,neighborhood.89348a6,pa.a17d2a7,pagewrapper.fc76d74,paparazzi.0a7c207,permits.0ea0805,personalization.a5b0dd2,posting-path.eafd2cf,pricing-tool.d22743d,profile.bc77a87,property-maps.b63219a,property-photos.f7b1c20,rent-affordability.a556e8a,renterprofile.8c5d2c6,rentvsbuy.6dc0b2d,richdata.4440f17,sales-history.eb13dd8,schools.18d5a82,search.8a083af,searchbar.12c3c54,seller.99cb128,seller-landing.a07313d,seopages.2ab1829,smart-banner.594889c,social-media-tools.dcd85c8,third-party-ads.ec54100,topnav.516acd4,user-account.4faeb77,validation-regexes.b3d0b3a,vcr.57e2860,video-landing.3309f64,webview-support.c3a282d,widgets.b68ec6f,yui.5b7360e,zsg.9c6fb5d,static.b20c067&have=54eb863de27399db8d394fade8cbd3787a3f0f92&afterFn=_womboResponse, line 1: TypeError: r is null
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-29/html/container.html, line 22: SecurityError: Permission denied to access property "document" on cross-origin object
+[Child 97232, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 97232, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 97232, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 97232, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 97232, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 97232, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+1532860472154	geckodriver	INFO	geckodriver 0.21.0
+1532860472166	geckodriver	INFO	Listening on 127.0.0.1:63866
+1532860472277	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/4z/9pmtrt2x44sg3qhryp3p2zvc0000gn/T/rust_mozprofile.I7yqo2F7l9VV"
+2018-07-29 03:34:38.366 plugin-container[99425:4765352] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9043, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-29 03:34:40.130 plugin-container[99426:4765392] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x933b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1532860480642	Marionette	INFO	Listening on port 63873
+1532860480711	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-29 03:34:42.385 plugin-container[99429:4765513] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9147, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.zillowstatic.com/l/?wants=z-home-tabs&deploy=admin-account-tools.c1a3188,adtech-landing.null,adv.2ef0d63,advice.25e5aad,agentteams.db3e983,app-upsell.04630c5,app-views.e7c3391,async-content.36c5773,bdp.071cc7e,best-time.c479a30,bpro.3cf9b7b,building-admin.34d58c6,chinese-landing-page.8ee294a,claim.a2ad0b8,community-pillar.cedeb1e,complaints.e92a505,contact-form.7958c5f,contacts.55f0ac7,email-a-friend.847f564,ecui.43a4038,formatters.34b921e,gtm.c9391e2,hdp.a6a1abf,hdp-legacy-shim.257c863,homepage.3727afe,homevalues.4288ddb,inspections.8ed1066,instant-offer.d56b765,keystone.a98b99a,lazy-image-loader.ec0328d,managed-lifecycle.e29d665,map.d81c3c9,mobile-landingpage.2bfadf9,modals.4cdd552,npm.d369a91,santas-house.9b25f76,nc-map.8b727d1,neighborhood.89348a6,pa.a17d2a7,pagewrapper.fc76d74,paparazzi.0a7c207,permits.0ea0805,personalization.a5b0dd2,posting-path.eafd2cf,pricing-tool.d22743d,profile.bc77a87,property-maps.b63219a,property-photos.f7b1c20,rent-affordability.a556e8a,renterprofile.8c5d2c6,rentvsbuy.6dc0b2d,richdata.4440f17,sales-history.eb13dd8,schools.18d5a82,search.8a083af,searchbar.12c3c54,seller.99cb128,seller-landing.a07313d,seopages.2ab1829,smart-banner.594889c,social-media-tools.dcd85c8,third-party-ads.ec54100,topnav.516acd4,user-account.4faeb77,validation-regexes.b3d0b3a,vcr.57e2860,video-landing.3309f64,webview-support.c3a282d,widgets.b68ec6f,yui.5b7360e,zsg.9c6fb5d,static.b20c067&have=54eb863de27399db8d394fade8cbd3787a3f0f92&afterFn=_womboResponse, line 1: TypeError: r is null
+JavaScript error: https://www.zillowstatic.com/l/?wants=z-home-tabs&deploy=admin-account-tools.c1a3188,adtech-landing.null,adv.2ef0d63,advice.25e5aad,agentteams.db3e983,app-upsell.04630c5,app-views.e7c3391,async-content.36c5773,bdp.071cc7e,best-time.c479a30,bpro.3cf9b7b,building-admin.34d58c6,chinese-landing-page.8ee294a,claim.a2ad0b8,community-pillar.cedeb1e,complaints.e92a505,contact-form.7958c5f,contacts.55f0ac7,email-a-friend.847f564,ecui.43a4038,formatters.34b921e,gtm.c9391e2,hdp.a6a1abf,hdp-legacy-shim.257c863,homepage.3727afe,homevalues.4288ddb,inspections.8ed1066,instant-offer.d56b765,keystone.a98b99a,lazy-image-loader.ec0328d,managed-lifecycle.e29d665,map.d81c3c9,mobile-landingpage.2bfadf9,modals.4cdd552,npm.d369a91,santas-house.9b25f76,nc-map.8b727d1,neighborhood.89348a6,pa.a17d2a7,pagewrapper.fc76d74,paparazzi.0a7c207,permits.0ea0805,personalization.a5b0dd2,posting-path.eafd2cf,pricing-tool.d22743d,profile.bc77a87,property-maps.b63219a,property-photos.f7b1c20,rent-affordability.a556e8a,renterprofile.8c5d2c6,rentvsbuy.6dc0b2d,richdata.4440f17,sales-history.eb13dd8,schools.18d5a82,search.8a083af,searchbar.12c3c54,seller.99cb128,seller-landing.a07313d,seopages.2ab1829,smart-banner.594889c,social-media-tools.dcd85c8,third-party-ads.ec54100,topnav.516acd4,user-account.4faeb77,validation-regexes.b3d0b3a,vcr.57e2860,video-landing.3309f64,webview-support.c3a282d,widgets.b68ec6f,yui.5b7360e,zsg.9c6fb5d,static.b20c067&have=54eb863de27399db8d394fade8cbd3787a3f0f92&afterFn=_womboResponse, line 1: TypeError: r is null
+JavaScript error: https://www.zillowstatic.com/l/?wants=z-home-tabs&deploy=admin-account-tools.c1a3188,adtech-landing.null,adv.2ef0d63,advice.25e5aad,agentteams.db3e983,app-upsell.04630c5,app-views.e7c3391,async-content.36c5773,bdp.071cc7e,best-time.c479a30,bpro.3cf9b7b,building-admin.34d58c6,chinese-landing-page.8ee294a,claim.a2ad0b8,community-pillar.cedeb1e,complaints.e92a505,contact-form.7958c5f,contacts.55f0ac7,email-a-friend.847f564,ecui.43a4038,formatters.34b921e,gtm.c9391e2,hdp.a6a1abf,hdp-legacy-shim.257c863,homepage.3727afe,homevalues.4288ddb,inspections.8ed1066,instant-offer.d56b765,keystone.a98b99a,lazy-image-loader.ec0328d,managed-lifecycle.e29d665,map.d81c3c9,mobile-landingpage.2bfadf9,modals.4cdd552,npm.d369a91,santas-house.9b25f76,nc-map.8b727d1,neighborhood.89348a6,pa.a17d2a7,pagewrapper.fc76d74,paparazzi.0a7c207,permits.0ea0805,personalization.a5b0dd2,posting-path.eafd2cf,pricing-tool.d22743d,profile.bc77a87,property-maps.b63219a,property-photos.f7b1c20,rent-affordability.a556e8a,renterprofile.8c5d2c6,rentvsbuy.6dc0b2d,richdata.4440f17,sales-history.eb13dd8,schools.18d5a82,search.8a083af,searchbar.12c3c54,seller.99cb128,seller-landing.a07313d,seopages.2ab1829,smart-banner.594889c,social-media-tools.dcd85c8,third-party-ads.ec54100,topnav.516acd4,user-account.4faeb77,validation-regexes.b3d0b3a,vcr.57e2860,video-landing.3309f64,webview-support.c3a282d,widgets.b68ec6f,yui.5b7360e,zsg.9c6fb5d,static.b20c067&have=54eb863de27399db8d394fade8cbd3787a3f0f92&afterFn=_womboResponse, line 1: TypeError: r is null
+Unable to get IOVARendererSubID
+1532860559906	geckodriver	INFO	geckodriver 0.21.0
+1532860559934	geckodriver	INFO	Listening on 127.0.0.1:64247
+1532860560036	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/4z/9pmtrt2x44sg3qhryp3p2zvc0000gn/T/rust_mozprofile.SfEMhUntwlXz"
+2018-07-29 03:36:06.266 plugin-container[404:4767857] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9247, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-29 03:36:07.535 plugin-container[405:4767887] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9447, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1532860567834	Marionette	INFO	Listening on port 64254
+1532860567966	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-29 03:36:09.132 plugin-container[406:4767975] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9347, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.zillowstatic.com/l/?wants=z-home-tabs&deploy=admin-account-tools.c1a3188,adtech-landing.null,adv.2ef0d63,advice.25e5aad,agentteams.db3e983,app-upsell.04630c5,app-views.e7c3391,async-content.36c5773,bdp.071cc7e,best-time.c479a30,bpro.3cf9b7b,building-admin.34d58c6,chinese-landing-page.8ee294a,claim.a2ad0b8,community-pillar.cedeb1e,complaints.e92a505,contact-form.7958c5f,contacts.55f0ac7,email-a-friend.847f564,ecui.43a4038,formatters.34b921e,gtm.c9391e2,hdp.a6a1abf,hdp-legacy-shim.257c863,homepage.3727afe,homevalues.4288ddb,inspections.8ed1066,instant-offer.d56b765,keystone.a98b99a,lazy-image-loader.ec0328d,managed-lifecycle.e29d665,map.d81c3c9,mobile-landingpage.2bfadf9,modals.4cdd552,npm.d369a91,santas-house.9b25f76,nc-map.8b727d1,neighborhood.89348a6,pa.a17d2a7,pagewrapper.fc76d74,paparazzi.0a7c207,permits.0ea0805,personalization.a5b0dd2,posting-path.eafd2cf,pricing-tool.d22743d,profile.bc77a87,property-maps.b63219a,property-photos.f7b1c20,rent-affordability.a556e8a,renterprofile.8c5d2c6,rentvsbuy.6dc0b2d,richdata.4440f17,sales-history.eb13dd8,schools.18d5a82,search.8a083af,searchbar.12c3c54,seller.99cb128,seller-landing.a07313d,seopages.2ab1829,smart-banner.594889c,social-media-tools.dcd85c8,third-party-ads.ec54100,topnav.516acd4,user-account.4faeb77,validation-regexes.b3d0b3a,vcr.57e2860,video-landing.3309f64,webview-support.c3a282d,widgets.b68ec6f,yui.5b7360e,zsg.9c6fb5d,static.b20c067&have=54eb863de27399db8d394fade8cbd3787a3f0f92&afterFn=_womboResponse, line 1: TypeError: r is null
+JavaScript error: https://www.zillowstatic.com/l/?wants=z-home-tabs&deploy=admin-account-tools.c1a3188,adtech-landing.null,adv.2ef0d63,advice.25e5aad,agentteams.db3e983,app-upsell.04630c5,app-views.e7c3391,async-content.36c5773,bdp.071cc7e,best-time.c479a30,bpro.3cf9b7b,building-admin.34d58c6,chinese-landing-page.8ee294a,claim.a2ad0b8,community-pillar.cedeb1e,complaints.e92a505,contact-form.7958c5f,contacts.55f0ac7,email-a-friend.847f564,ecui.43a4038,formatters.34b921e,gtm.c9391e2,hdp.a6a1abf,hdp-legacy-shim.257c863,homepage.3727afe,homevalues.4288ddb,inspections.8ed1066,instant-offer.d56b765,keystone.a98b99a,lazy-image-loader.ec0328d,managed-lifecycle.e29d665,map.d81c3c9,mobile-landingpage.2bfadf9,modals.4cdd552,npm.d369a91,santas-house.9b25f76,nc-map.8b727d1,neighborhood.89348a6,pa.a17d2a7,pagewrapper.fc76d74,paparazzi.0a7c207,permits.0ea0805,personalization.a5b0dd2,posting-path.eafd2cf,pricing-tool.d22743d,profile.bc77a87,property-maps.b63219a,property-photos.f7b1c20,rent-affordability.a556e8a,renterprofile.8c5d2c6,rentvsbuy.6dc0b2d,richdata.4440f17,sales-history.eb13dd8,schools.18d5a82,search.8a083af,searchbar.12c3c54,seller.99cb128,seller-landing.a07313d,seopages.2ab1829,smart-banner.594889c,social-media-tools.dcd85c8,third-party-ads.ec54100,topnav.516acd4,user-account.4faeb77,validation-regexes.b3d0b3a,vcr.57e2860,video-landing.3309f64,webview-support.c3a282d,widgets.b68ec6f,yui.5b7360e,zsg.9c6fb5d,static.b20c067&have=54eb863de27399db8d394fade8cbd3787a3f0f92&afterFn=_womboResponse, line 1: TypeError: r is null
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-29/html/container.html, line 22: SecurityError: Permission denied to access property "document" on cross-origin object
+[Child 404, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 404, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 404, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 404, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 404, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 404, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping

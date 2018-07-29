@@ -34,11 +34,17 @@
 
 	<main role="main" class="container">
 
-		<form action="" method="post" class="form-inline md-form form-sm active-cyan-2" style="margin-top: 10%;">
-			{% csrf_token %}
-			<i class="fa fa-search" aria-hidden="true"></i>
-			<input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Search" aria-label="Search" name="search">
-		</form>
+		<ul class="list-group list-group-flush" style="margin-top: 10%;">
+			{% for key, value in zillow_info.items %} 
+			<li class="list-group-item">{{key}} - {{value}}</li>
+			{% endfor %}
+			{% for key, value in trulia_info.items %} 
+			<li class="list-group-item">{{key}} - {{value}}</li>
+			{% endfor %}
+			{% for key, value in realtor_info.items %} 
+			<li class="list-group-item">{{key}} - {{value}}</li>
+			{% endfor %}
+		</ul>
 
 	</main><!-- /.container -->
 
