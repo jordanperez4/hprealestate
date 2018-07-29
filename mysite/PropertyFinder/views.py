@@ -21,11 +21,13 @@ def index(request):
     driver = webdriver.Firefox()
     zillow_info = house_site_info.get_zillow_info(driver, search_text)
     trulia_info = house_site_info.get_trulia_info(driver, search_text)
+    realtor_info = house_site_info.get_realtor_info(driver, search_text)
     driver.close()
     return render(request, 'PropertyFinder/index.html',
          {
          'zillow_info': zillow_info,
-         'trulia_info': trulia_info
+         'trulia_info': trulia_info,
+         'realtor_info': realtor_info
          }
      )
 

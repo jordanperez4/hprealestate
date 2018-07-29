@@ -9,6 +9,7 @@ import re
 delay = 10
 zillow_info = {}
 trulia_info = {}
+realtor_info = {}
 
 def get_zillow_info(driver, search_text):
     driver.get("https://www.zillow.com/")
@@ -46,5 +47,24 @@ def get_trulia_info(driver, search_text):
     except TimeoutException:
         print("Loading took too much time!")
     return trulia_info
+
+def get_realtor_info(driver, search_text):
+    driver.get("https://www.realtor.com/")
+    try:
+        realtor_search_input = WebDriverWait(driver, delay).until(EC.presence_of_element_located((By.ID, 'searchBox')))
+        print("Page is ready!")
+        realtor_search_input.send_keys(search_text)
+        realtor_search_input.submit()
+    except TimeoutException:
+        print("Loading took too much time!")
+    try:
+        myElem = WebDriverWait(driver, delay).until(EC.presence_of_element_located((By.CLASS_NAME, 'ldp-header-price')))
+        print("Page is ready!")
+        est_text = driver.find_elements_by_class_name("ldp-header-price")[0].text
+        price_items = re.findall(r'\$(?:\d+\.)?\d+.\d+', est_text)
+    except TimeoutException:
+        print("Loading took too much time!")
+    realtor_info["Realtor House Estimate"] =  price_items[0]
+    return realtor_info
 
 
