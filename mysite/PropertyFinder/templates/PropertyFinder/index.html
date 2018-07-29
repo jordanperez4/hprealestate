@@ -1,2 +1,5 @@
-<h3>Zestimate:</h3> <h1>{{est_price}}</h1>
-<h3>Zestimated Rent:</h3> <h1>{{est_rent}}</h1>
+<ul>
+{% for key, value in zillow_info.items %} 
+  <li>{{key}} - {{value}}</li>
+ {% endfor %}
+</ul>
