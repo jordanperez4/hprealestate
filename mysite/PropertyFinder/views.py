@@ -12,16 +12,25 @@ from django.views import generic
 from .models import Choice, Question
 
 from django.utils import timezone
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+import re
 
 
-class IndexView(generic.ListView):
-    template_name = 'PropertyFinder/index.html'
-    context_object_name = 'latest_question_list'
-
-    def get_queryset(self):
-        """Return the last five published questions."""
-        return Question.objects.filter(pub_date__lte=timezone.now()).order_by('-pub_date')[:5]
-
+def index(request):
+    driver = webdriver.Firefox()
+    driver.get("https://www.zillow.com/homes/9091-Bobbie-Cir,-Huntington-Beach,-CA-92646_rb/")
+    est_text = driver.find_elements_by_class_name("estimates")[0].text
+    price_items = re.findall(r'\$(?:\d+\.)?\d+.\d+', est_text)
+    est_price = price_items[0]
+    est_rent = price_items[1]
+    driver.close()
+    return render(request, 'PropertyFinder/index.html',
+     {
+     'est_price': est_price, 
+     'est_rent': est_rent
+     }
+     )
 
 class DetailView(generic.DetailView):
     model = Question
