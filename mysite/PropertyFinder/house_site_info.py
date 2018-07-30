@@ -62,9 +62,9 @@ def get_realtor_info(driver, search_text):
         print("Page is ready!")
         est_text = driver.find_elements_by_class_name("ldp-header-price")[0].text
         price_items = re.findall(r'\$(?:\d+\.)?\d+.\d+', est_text)
+        realtor_info["Realtor House Estimate"] =  price_items[0]
     except TimeoutException:
         print("Loading took too much time!")
-    realtor_info["Realtor House Estimate"] =  price_items[0]
     return realtor_info
 
 

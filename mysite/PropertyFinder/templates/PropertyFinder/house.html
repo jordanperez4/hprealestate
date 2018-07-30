@@ -5,8 +5,9 @@
 	{% include "./components/html_top.html" %}
 </head>
 <body>
-{% include "./components/navbar.html" %}
+	{% include "./components/navbar.html" %}
 	<main role="main" class="container">
+		{% if zillow_info|length > 0 or trulia_info|length > 0 or realtor_info|length > 0 %}
 		<ul class="list-group list-group-flush">
 			{% for key, value in zillow_info.items %} 
 			<li class="list-group-item">{{key}} - {{value}}</li>
@@ -18,6 +19,11 @@
 			<li class="list-group-item">{{key}} - {{value}}</li>
 			{% endfor %}
 		</ul>
+		{% else %}
+		<div class="alert alert-danger">
+			<strong>Error.</strong> No Items Returned from Search.
+		</div>
+		{% endif %}
 	</main><!-- /.container -->
 	{% include "./components/html_bottom.html" %}
 </body>

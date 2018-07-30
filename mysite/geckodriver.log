@@ -1229,3 +1229,184 @@ See /usr/include/servers/bootstrap_defs.h for the error codes.
 See /usr/include/servers/bootstrap_defs.h for the error codes.
 Unable to get IOVARendererSubID
 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1532929941059	geckodriver	INFO	geckodriver 0.21.0
+1532929941071	geckodriver	INFO	Listening on 127.0.0.1:53870
+1532929941182	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/4z/9pmtrt2x44sg3qhryp3p2zvc0000gn/T/rust_mozprofile.mPD7IbdOghUR"
+2018-07-29 22:52:26.983 plugin-container[71346:4972617] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x953b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-29 22:52:28.468 plugin-container[71369:4972679] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9647, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1532929948775	Marionette	INFO	Listening on port 53875
+1532929948843	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-29 22:52:30.833 plugin-container[71370:4972794] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x933b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-117327504-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-117327504-1, line 69: unreachable code after return statement
+JavaScript error: chrome://browser/content/content.js, line 638: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIStringBundle.GetStringFromName]
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1532930023705	geckodriver	INFO	geckodriver 0.21.0
+1532930023717	geckodriver	INFO	Listening on 127.0.0.1:53963
+1532930023811	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/4z/9pmtrt2x44sg3qhryp3p2zvc0000gn/T/rust_mozprofile.q02InB2a82u6"
+2018-07-29 22:53:49.206 plugin-container[72186:4975138] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x923b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-29 22:53:50.241 plugin-container[72187:4975171] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9247, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1532930030653	Marionette	INFO	Listening on port 53968
+1532930030719	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-29 22:53:52.162 plugin-container[72245:4975369] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x914b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.zillowstatic.com/l/?wants=z-home-tabs&deploy=admin-account-tools.c1a3188,adtech-landing.null,adv.2ef0d63,advice.25e5aad,agentteams.db3e983,app-upsell.04630c5,app-views.e7c3391,async-content.36c5773,bdp.071cc7e,best-time.c479a30,bpro.3cf9b7b,building-admin.34d58c6,chinese-landing-page.8ee294a,claim.a2ad0b8,community-pillar.cedeb1e,complaints.e92a505,contact-form.7958c5f,contacts.55f0ac7,email-a-friend.847f564,ecui.43a4038,formatters.34b921e,gtm.c9391e2,hdp.a6a1abf,hdp-legacy-shim.257c863,homepage.3727afe,homevalues.4288ddb,inspections.8ed1066,instant-offer.d56b765,keystone.a98b99a,lazy-image-loader.ec0328d,managed-lifecycle.e29d665,map.d81c3c9,mobile-landingpage.2bfadf9,modals.4cdd552,npm.d369a91,santas-house.9b25f76,nc-map.8b727d1,neighborhood.89348a6,pa.a17d2a7,pagewrapper.fc76d74,paparazzi.0a7c207,permits.0ea0805,personalization.a5b0dd2,posting-path.eafd2cf,pricing-tool.d22743d,profile.bc77a87,property-maps.b63219a,property-photos.f7b1c20,rent-affordability.a556e8a,renterprofile.8c5d2c6,rentvsbuy.6dc0b2d,richdata.4440f17,sales-history.eb13dd8,schools.18d5a82,search.8a083af,searchbar.12c3c54,seller.99cb128,seller-landing.a07313d,seopages.2ab1829,smart-banner.594889c,social-media-tools.dcd85c8,third-party-ads.ec54100,topnav.516acd4,user-account.4faeb77,validation-regexes.b3d0b3a,vcr.57e2860,video-landing.3309f64,webview-support.c3a282d,widgets.b68ec6f,yui.5b7360e,zsg.9c6fb5d,static.b20c067&have=54eb863de27399db8d394fade8cbd3787a3f0f92&afterFn=_womboResponse, line 1: TypeError: r is null
+JavaScript error: https://www.zillowstatic.com/l/?wants=z-home-tabs&deploy=admin-account-tools.c1a3188,adtech-landing.null,adv.2ef0d63,advice.25e5aad,agentteams.db3e983,app-upsell.04630c5,app-views.e7c3391,async-content.36c5773,bdp.071cc7e,best-time.c479a30,bpro.3cf9b7b,building-admin.34d58c6,chinese-landing-page.8ee294a,claim.a2ad0b8,community-pillar.cedeb1e,complaints.e92a505,contact-form.7958c5f,contacts.55f0ac7,email-a-friend.847f564,ecui.43a4038,formatters.34b921e,gtm.c9391e2,hdp.a6a1abf,hdp-legacy-shim.257c863,homepage.3727afe,homevalues.4288ddb,inspections.8ed1066,instant-offer.d56b765,keystone.a98b99a,lazy-image-loader.ec0328d,managed-lifecycle.e29d665,map.d81c3c9,mobile-landingpage.2bfadf9,modals.4cdd552,npm.d369a91,santas-house.9b25f76,nc-map.8b727d1,neighborhood.89348a6,pa.a17d2a7,pagewrapper.fc76d74,paparazzi.0a7c207,permits.0ea0805,personalization.a5b0dd2,posting-path.eafd2cf,pricing-tool.d22743d,profile.bc77a87,property-maps.b63219a,property-photos.f7b1c20,rent-affordability.a556e8a,renterprofile.8c5d2c6,rentvsbuy.6dc0b2d,richdata.4440f17,sales-history.eb13dd8,schools.18d5a82,search.8a083af,searchbar.12c3c54,seller.99cb128,seller-landing.a07313d,seopages.2ab1829,smart-banner.594889c,social-media-tools.dcd85c8,third-party-ads.ec54100,topnav.516acd4,user-account.4faeb77,validation-regexes.b3d0b3a,vcr.57e2860,video-landing.3309f64,webview-support.c3a282d,widgets.b68ec6f,yui.5b7360e,zsg.9c6fb5d,static.b20c067&have=54eb863de27399db8d394fade8cbd3787a3f0f92&afterFn=_womboResponse, line 1: TypeError: r is null
+JavaScript error: https://www.zillowstatic.com/l/?wants=z-home-tabs&deploy=admin-account-tools.c1a3188,adtech-landing.null,adv.2ef0d63,advice.25e5aad,agentteams.db3e983,app-upsell.04630c5,app-views.e7c3391,async-content.36c5773,bdp.071cc7e,best-time.c479a30,bpro.3cf9b7b,building-admin.34d58c6,chinese-landing-page.8ee294a,claim.a2ad0b8,community-pillar.cedeb1e,complaints.e92a505,contact-form.7958c5f,contacts.55f0ac7,email-a-friend.847f564,ecui.43a4038,formatters.34b921e,gtm.c9391e2,hdp.a6a1abf,hdp-legacy-shim.257c863,homepage.3727afe,homevalues.4288ddb,inspections.8ed1066,instant-offer.d56b765,keystone.a98b99a,lazy-image-loader.ec0328d,managed-lifecycle.e29d665,map.d81c3c9,mobile-landingpage.2bfadf9,modals.4cdd552,npm.d369a91,santas-house.9b25f76,nc-map.8b727d1,neighborhood.89348a6,pa.a17d2a7,pagewrapper.fc76d74,paparazzi.0a7c207,permits.0ea0805,personalization.a5b0dd2,posting-path.eafd2cf,pricing-tool.d22743d,profile.bc77a87,property-maps.b63219a,property-photos.f7b1c20,rent-affordability.a556e8a,renterprofile.8c5d2c6,rentvsbuy.6dc0b2d,richdata.4440f17,sales-history.eb13dd8,schools.18d5a82,search.8a083af,searchbar.12c3c54,seller.99cb128,seller-landing.a07313d,seopages.2ab1829,smart-banner.594889c,social-media-tools.dcd85c8,third-party-ads.ec54100,topnav.516acd4,user-account.4faeb77,validation-regexes.b3d0b3a,vcr.57e2860,video-landing.3309f64,webview-support.c3a282d,widgets.b68ec6f,yui.5b7360e,zsg.9c6fb5d,static.b20c067&have=54eb863de27399db8d394fade8cbd3787a3f0f92&afterFn=_womboResponse, line 1: TypeError: r is null
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x49000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x49000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x490007,name=PHttpChannel::Msg_Redirect2Verify) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1532930420736	geckodriver	INFO	geckodriver 0.21.0
+1532930420764	geckodriver	INFO	Listening on 127.0.0.1:54551
+1532930420871	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/4z/9pmtrt2x44sg3qhryp3p2zvc0000gn/T/rust_mozprofile.h20YWifeM8Bz"
+2018-07-29 23:00:28.646 plugin-container[76607:4988391] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x943f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-29 23:00:29.447 plugin-container[76608:4988430] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9543, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-29 23:00:30.788 plugin-container[76609:4988490] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9243, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1532930430993	Marionette	INFO	Listening on port 54556
+1532930431058	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to get IOVARendererSubID
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1532930680816	geckodriver	INFO	geckodriver 0.21.0
+1532930680829	geckodriver	INFO	Listening on 127.0.0.1:54907
+1532930682953	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/4z/9pmtrt2x44sg3qhryp3p2zvc0000gn/T/rust_mozprofile.mA5Z3lZ9qiT2"
+2018-07-29 23:04:52.260 plugin-container[79398:5000233] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8f43, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-29 23:04:53.929 plugin-container[79400:5000290] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9243, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1532930694474	Marionette	INFO	Listening on port 54914
+1532930694610	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-29 23:04:56.188 plugin-container[79401:5000414] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x914b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1532930914995	geckodriver	INFO	geckodriver 0.21.0
+1532930915010	geckodriver	INFO	Listening on 127.0.0.1:55236
+1532930915060	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/4z/9pmtrt2x44sg3qhryp3p2zvc0000gn/T/rust_mozprofile.DVreJE4C5sux"
+2018-07-29 23:08:41.017 plugin-container[81721:5011710] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8f3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-29 23:08:42.143 plugin-container[81722:5011745] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9443, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1532930922760	Marionette	INFO	Listening on port 55241
+1532930923059	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-29 23:08:43.251 plugin-container[81723:5011835] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9343, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.zillowstatic.com/l/?wants=z-home-tabs&deploy=admin-account-tools.c1a3188,adtech-landing.null,adv.2ef0d63,advice.25e5aad,agentteams.db3e983,app-upsell.04630c5,app-views.e7c3391,async-content.36c5773,bdp.071cc7e,best-time.c479a30,bpro.3cf9b7b,building-admin.34d58c6,chinese-landing-page.8ee294a,claim.a2ad0b8,community-pillar.cedeb1e,complaints.e92a505,contact-form.7958c5f,contacts.55f0ac7,email-a-friend.847f564,ecui.43a4038,formatters.34b921e,gtm.c9391e2,hdp.a6a1abf,hdp-legacy-shim.257c863,homepage.3727afe,homevalues.4288ddb,inspections.8ed1066,instant-offer.d56b765,keystone.a98b99a,lazy-image-loader.ec0328d,managed-lifecycle.e29d665,map.d81c3c9,mobile-landingpage.2bfadf9,modals.4cdd552,npm.d369a91,santas-house.9b25f76,nc-map.8b727d1,neighborhood.89348a6,pa.a17d2a7,pagewrapper.fc76d74,paparazzi.0a7c207,permits.0ea0805,personalization.a5b0dd2,posting-path.eafd2cf,pricing-tool.d22743d,profile.bc77a87,property-maps.b63219a,property-photos.f7b1c20,rent-affordability.a556e8a,renterprofile.8c5d2c6,rentvsbuy.6dc0b2d,richdata.4440f17,sales-history.eb13dd8,schools.18d5a82,search.8a083af,searchbar.12c3c54,seller.99cb128,seller-landing.a07313d,seopages.2ab1829,smart-banner.594889c,social-media-tools.dcd85c8,third-party-ads.ec54100,topnav.516acd4,user-account.4faeb77,validation-regexes.b3d0b3a,vcr.57e2860,video-landing.3309f64,webview-support.c3a282d,widgets.b68ec6f,yui.5b7360e,zsg.9c6fb5d,static.b20c067&have=54eb863de27399db8d394fade8cbd3787a3f0f92&afterFn=_womboResponse, line 1: TypeError: r is null
+JavaScript error: https://www.zillowstatic.com/l/?wants=z-home-tabs&deploy=admin-account-tools.c1a3188,adtech-landing.null,adv.2ef0d63,advice.25e5aad,agentteams.db3e983,app-upsell.04630c5,app-views.e7c3391,async-content.36c5773,bdp.071cc7e,best-time.c479a30,bpro.3cf9b7b,building-admin.34d58c6,chinese-landing-page.8ee294a,claim.a2ad0b8,community-pillar.cedeb1e,complaints.e92a505,contact-form.7958c5f,contacts.55f0ac7,email-a-friend.847f564,ecui.43a4038,formatters.34b921e,gtm.c9391e2,hdp.a6a1abf,hdp-legacy-shim.257c863,homepage.3727afe,homevalues.4288ddb,inspections.8ed1066,instant-offer.d56b765,keystone.a98b99a,lazy-image-loader.ec0328d,managed-lifecycle.e29d665,map.d81c3c9,mobile-landingpage.2bfadf9,modals.4cdd552,npm.d369a91,santas-house.9b25f76,nc-map.8b727d1,neighborhood.89348a6,pa.a17d2a7,pagewrapper.fc76d74,paparazzi.0a7c207,permits.0ea0805,personalization.a5b0dd2,posting-path.eafd2cf,pricing-tool.d22743d,profile.bc77a87,property-maps.b63219a,property-photos.f7b1c20,rent-affordability.a556e8a,renterprofile.8c5d2c6,rentvsbuy.6dc0b2d,richdata.4440f17,sales-history.eb13dd8,schools.18d5a82,search.8a083af,searchbar.12c3c54,seller.99cb128,seller-landing.a07313d,seopages.2ab1829,smart-banner.594889c,social-media-tools.dcd85c8,third-party-ads.ec54100,topnav.516acd4,user-account.4faeb77,validation-regexes.b3d0b3a,vcr.57e2860,video-landing.3309f64,webview-support.c3a282d,widgets.b68ec6f,yui.5b7360e,zsg.9c6fb5d,static.b20c067&have=54eb863de27399db8d394fade8cbd3787a3f0f92&afterFn=_womboResponse, line 1: TypeError: r is null
+JavaScript error: https://www.zillowstatic.com/l/?wants=z-home-tabs&deploy=admin-account-tools.c1a3188,adtech-landing.null,adv.2ef0d63,advice.25e5aad,agentteams.db3e983,app-upsell.04630c5,app-views.e7c3391,async-content.36c5773,bdp.071cc7e,best-time.c479a30,bpro.3cf9b7b,building-admin.34d58c6,chinese-landing-page.8ee294a,claim.a2ad0b8,community-pillar.cedeb1e,complaints.e92a505,contact-form.7958c5f,contacts.55f0ac7,email-a-friend.847f564,ecui.43a4038,formatters.34b921e,gtm.c9391e2,hdp.a6a1abf,hdp-legacy-shim.257c863,homepage.3727afe,homevalues.4288ddb,inspections.8ed1066,instant-offer.d56b765,keystone.a98b99a,lazy-image-loader.ec0328d,managed-lifecycle.e29d665,map.d81c3c9,mobile-landingpage.2bfadf9,modals.4cdd552,npm.d369a91,santas-house.9b25f76,nc-map.8b727d1,neighborhood.89348a6,pa.a17d2a7,pagewrapper.fc76d74,paparazzi.0a7c207,permits.0ea0805,personalization.a5b0dd2,posting-path.eafd2cf,pricing-tool.d22743d,profile.bc77a87,property-maps.b63219a,property-photos.f7b1c20,rent-affordability.a556e8a,renterprofile.8c5d2c6,rentvsbuy.6dc0b2d,richdata.4440f17,sales-history.eb13dd8,schools.18d5a82,search.8a083af,searchbar.12c3c54,seller.99cb128,seller-landing.a07313d,seopages.2ab1829,smart-banner.594889c,social-media-tools.dcd85c8,third-party-ads.ec54100,topnav.516acd4,user-account.4faeb77,validation-regexes.b3d0b3a,vcr.57e2860,video-landing.3309f64,webview-support.c3a282d,widgets.b68ec6f,yui.5b7360e,zsg.9c6fb5d,static.b20c067&have=54eb863de27399db8d394fade8cbd3787a3f0f92&afterFn=_womboResponse, line 1: TypeError: r is null
+1532931189702	geckodriver	INFO	geckodriver 0.21.0
+1532931189731	geckodriver	INFO	Listening on 127.0.0.1:55517
+1532931189765	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/4z/9pmtrt2x44sg3qhryp3p2zvc0000gn/T/rust_mozprofile.3N1xZEo6OLUK"
+2018-07-29 23:13:15.836 plugin-container[84733:5022347] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9647, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-29 23:13:16.451 plugin-container[84734:5022372] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9247, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1532931197176	Marionette	INFO	Listening on port 55522
+1532931197248	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-29 23:13:17.702 plugin-container[84778:5022506] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9243, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.zillowstatic.com/l/?wants=z-home-tabs&deploy=admin-account-tools.c1a3188,adtech-landing.null,adv.2ef0d63,advice.25e5aad,agentteams.db3e983,app-upsell.04630c5,app-views.e7c3391,async-content.36c5773,bdp.071cc7e,best-time.c479a30,bpro.3cf9b7b,building-admin.34d58c6,chinese-landing-page.8ee294a,claim.a2ad0b8,community-pillar.cedeb1e,complaints.e92a505,contact-form.7958c5f,contacts.55f0ac7,email-a-friend.847f564,ecui.43a4038,formatters.34b921e,gtm.c9391e2,hdp.a6a1abf,hdp-legacy-shim.257c863,homepage.3727afe,homevalues.4288ddb,inspections.8ed1066,instant-offer.d56b765,keystone.a98b99a,lazy-image-loader.ec0328d,managed-lifecycle.e29d665,map.d81c3c9,mobile-landingpage.2bfadf9,modals.4cdd552,npm.d369a91,santas-house.9b25f76,nc-map.8b727d1,neighborhood.89348a6,pa.a17d2a7,pagewrapper.fc76d74,paparazzi.0a7c207,permits.0ea0805,personalization.a5b0dd2,posting-path.eafd2cf,pricing-tool.d22743d,profile.bc77a87,property-maps.b63219a,property-photos.f7b1c20,rent-affordability.a556e8a,renterprofile.8c5d2c6,rentvsbuy.6dc0b2d,richdata.4440f17,sales-history.eb13dd8,schools.18d5a82,search.8a083af,searchbar.12c3c54,seller.99cb128,seller-landing.a07313d,seopages.2ab1829,smart-banner.594889c,social-media-tools.dcd85c8,third-party-ads.ec54100,topnav.516acd4,user-account.4faeb77,validation-regexes.b3d0b3a,vcr.57e2860,video-landing.3309f64,webview-support.c3a282d,widgets.b68ec6f,yui.5b7360e,zsg.9c6fb5d,static.b20c067&have=54eb863de27399db8d394fade8cbd3787a3f0f92&afterFn=_womboResponse, line 1: TypeError: r is null
+JavaScript error: https://www.zillowstatic.com/l/?wants=z-home-tabs&deploy=admin-account-tools.c1a3188,adtech-landing.null,adv.2ef0d63,advice.25e5aad,agentteams.db3e983,app-upsell.04630c5,app-views.e7c3391,async-content.36c5773,bdp.071cc7e,best-time.c479a30,bpro.3cf9b7b,building-admin.34d58c6,chinese-landing-page.8ee294a,claim.a2ad0b8,community-pillar.cedeb1e,complaints.e92a505,contact-form.7958c5f,contacts.55f0ac7,email-a-friend.847f564,ecui.43a4038,formatters.34b921e,gtm.c9391e2,hdp.a6a1abf,hdp-legacy-shim.257c863,homepage.3727afe,homevalues.4288ddb,inspections.8ed1066,instant-offer.d56b765,keystone.a98b99a,lazy-image-loader.ec0328d,managed-lifecycle.e29d665,map.d81c3c9,mobile-landingpage.2bfadf9,modals.4cdd552,npm.d369a91,santas-house.9b25f76,nc-map.8b727d1,neighborhood.89348a6,pa.a17d2a7,pagewrapper.fc76d74,paparazzi.0a7c207,permits.0ea0805,personalization.a5b0dd2,posting-path.eafd2cf,pricing-tool.d22743d,profile.bc77a87,property-maps.b63219a,property-photos.f7b1c20,rent-affordability.a556e8a,renterprofile.8c5d2c6,rentvsbuy.6dc0b2d,richdata.4440f17,sales-history.eb13dd8,schools.18d5a82,search.8a083af,searchbar.12c3c54,seller.99cb128,seller-landing.a07313d,seopages.2ab1829,smart-banner.594889c,social-media-tools.dcd85c8,third-party-ads.ec54100,topnav.516acd4,user-account.4faeb77,validation-regexes.b3d0b3a,vcr.57e2860,video-landing.3309f64,webview-support.c3a282d,widgets.b68ec6f,yui.5b7360e,zsg.9c6fb5d,static.b20c067&have=54eb863de27399db8d394fade8cbd3787a3f0f92&afterFn=_womboResponse, line 1: TypeError: r is null
+JavaScript error: https://www.zillowstatic.com/l/?wants=z-home-tabs&deploy=admin-account-tools.c1a3188,adtech-landing.null,adv.2ef0d63,advice.25e5aad,agentteams.db3e983,app-upsell.04630c5,app-views.e7c3391,async-content.36c5773,bdp.071cc7e,best-time.c479a30,bpro.3cf9b7b,building-admin.34d58c6,chinese-landing-page.8ee294a,claim.a2ad0b8,community-pillar.cedeb1e,complaints.e92a505,contact-form.7958c5f,contacts.55f0ac7,email-a-friend.847f564,ecui.43a4038,formatters.34b921e,gtm.c9391e2,hdp.a6a1abf,hdp-legacy-shim.257c863,homepage.3727afe,homevalues.4288ddb,inspections.8ed1066,instant-offer.d56b765,keystone.a98b99a,lazy-image-loader.ec0328d,managed-lifecycle.e29d665,map.d81c3c9,mobile-landingpage.2bfadf9,modals.4cdd552,npm.d369a91,santas-house.9b25f76,nc-map.8b727d1,neighborhood.89348a6,pa.a17d2a7,pagewrapper.fc76d74,paparazzi.0a7c207,permits.0ea0805,personalization.a5b0dd2,posting-path.eafd2cf,pricing-tool.d22743d,profile.bc77a87,property-maps.b63219a,property-photos.f7b1c20,rent-affordability.a556e8a,renterprofile.8c5d2c6,rentvsbuy.6dc0b2d,richdata.4440f17,sales-history.eb13dd8,schools.18d5a82,search.8a083af,searchbar.12c3c54,seller.99cb128,seller-landing.a07313d,seopages.2ab1829,smart-banner.594889c,social-media-tools.dcd85c8,third-party-ads.ec54100,topnav.516acd4,user-account.4faeb77,validation-regexes.b3d0b3a,vcr.57e2860,video-landing.3309f64,webview-support.c3a282d,widgets.b68ec6f,yui.5b7360e,zsg.9c6fb5d,static.b20c067&have=54eb863de27399db8d394fade8cbd3787a3f0f92&afterFn=_womboResponse, line 1: TypeError: r is null
+1532931398286	geckodriver	INFO	geckodriver 0.21.0
+1532931398299	geckodriver	INFO	Listening on 127.0.0.1:55772
+1532931398373	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/4z/9pmtrt2x44sg3qhryp3p2zvc0000gn/T/rust_mozprofile.HKQha65mvdlq"
+2018-07-29 23:16:44.386 plugin-container[87044:5027815] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9123, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-29 23:16:45.734 plugin-container[87045:5027846] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9247, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1532931406196	Marionette	INFO	Listening on port 55777
+1532931406331	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-29 23:16:47.799 plugin-container[87159:5028098] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9247, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.

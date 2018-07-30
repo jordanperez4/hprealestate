@@ -21,9 +21,21 @@ def index(request):
     return render(request, 'PropertyFinder/index.html',{})
 def house(request, search_text):
     driver = webdriver.Firefox()
-    zillow_info = house_site_info.get_zillow_info(driver, search_text)
-    trulia_info = house_site_info.get_trulia_info(driver, search_text)
-    realtor_info = house_site_info.get_realtor_info(driver, search_text)
+    zillow_info = {}
+    trulia_info = {}
+    realtor_info = {}
+    try:
+        zillow_info = house_site_info.get_zillow_info(driver, search_text)
+    except Exception as e:
+        print(e)
+    try: 
+        trulia_info = house_site_info.get_trulia_info(driver, search_text)
+    except Exception as e:
+        print(e)
+    try:
+        realtor_info = house_site_info.get_realtor_info(driver, search_text)
+    except Exception as e:
+        print(e)
     driver.close()
     return render(request, 'PropertyFinder/house.html',
          {
